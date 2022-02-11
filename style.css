@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Orbitron:wght@700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --shadow-1: 0.125rem .25rem rgba(0,0,0, .075);
+    --shadow-2: 0 .5rem 1rem rgba(0,0,0, .15);
+    --shadow-3:  0 1rem 3rem rgba(0,0,0, .175);
+}
+
+*,
+*::before, 
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background: #e9e9e9;
+    font-family: poppins;
+}
+h2{
+    
+    background: linear-gradient(to right, rgb(136, 61, 126), rgb(112, 60, 60));
+    color: white;
+    text-shadow: 0 2px 4px black;
+    padding: 1rem;
+}
+
+
+/* For Js tabs and theme start here */
+.for-tabs{
+    width: 60rem;
+    margin: 3rem auto 0;
+    background: #fff;
+    padding: 1.2rem;
+    box-shadow: var(--shadow-3);
+    display: flex;
+}
+
+.for-tabs .tab-menu{    
+    margin-right: 2rem;
+}
+
+.for-tabs ul li a {
+    display: block;
+    color: #333;
+    background: linear-gradient(145deg, #ffffff, #dcdcdc);
+    box-shadow:  3px 3px 5px #bebebe, 
+                 -3px -3px 5px #ffffff;
+    transition: 0.3s;
+    padding: .5rem;
+    margin-bottom: 1.25rem;
+    text-shadow: none;
+}
+.for-tabs ul li a:hover {
+    text-decoration: none;
+    text-shadow: 0 2px 3px rgba(10, 6, 26, 0.904);        
+    
+}
+
+.for-tabs .tab-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: var(--shadow-3);
+    padding: 1rem;
+}
+
+.for-tabs .tab-pane{
+    display: none;
+}
+
+.for-tabs .tab-pane.active{
+    display: block;
+}
+
+
+.for-tabs-one{
+    width: 60rem;
+    margin: 3rem auto 0;
+    background: #fff;
+    padding: 1.2rem;
+    box-shadow: var(--shadow-3);
+}
+
+
+.for-tabs-one ul {
+    display: flex;
+    justify-content: space-around;
+} 
+ 
+.for-tabs-one ul li {
+    display: block;
+    width: 20%;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.for-tabs-one ul li a {
+    display: block;
+    color: black;
+    transition: 0.3s;
+    border-bottom: 1px solid #e9e9e9;
+    text-shadow: 0 2px 3px rgb(133, 115, 115);   
+
+}
+
+.for-tabs-one ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(156, 58, 143), rgb(170, 81, 81));
+} 
+
+.for-tabs-one ul li a.active1 {
+    border-bottom: none;
+    border-top: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    border-radius: .2rem .2rem 0 0;
+}
+
+.for-tabs-one .tab-body-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: var(--shadow-3);
+    padding: 1rem;
+}
+
+.for-tabs-one .tab-pane-one{
+    display: none;
+}
+
+.for-tabs-one .tab-pane-one.active1{
+    display: block;
+}
+/* Js tabs and theme end here */
