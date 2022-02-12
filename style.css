@@ -17,6 +17,9 @@
 li{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 
 body{
     background: #e9e9e9;
@@ -33,7 +36,7 @@ h2{
 
 /* For Js tabs and theme start here */
 .for-tabs{
-    width: 60rem;
+    width: 55rem;
     margin: 3rem auto 0;
     background: #fff;
     padding: 1.2rem;
@@ -54,6 +57,7 @@ h2{
     transition: 0.3s;
     padding: .5rem;
     margin-bottom: 1.25rem;
+	margin-top: 1rem;
     text-shadow: none;
 }
 .for-tabs ul li a:hover {
@@ -81,7 +85,7 @@ h2{
 
 
 .for-tabs-one{
-    width: 60rem;
+    width: 55rem;
     margin: 3rem auto 0;
     background: #fff;
     padding: 1.2rem;
@@ -106,7 +110,7 @@ h2{
     display: block;
     color: black;
     transition: 0.3s;
-    border-bottom: 1px solid #e9e9e9;
+    border-bottom: 1px solid #bebcbc;
     text-shadow: 0 2px 3px rgb(133, 115, 115);   
 
 }
@@ -119,9 +123,9 @@ h2{
 
 .for-tabs-one ul li a.active1 {
     border-bottom: none;
-    border-top: 1px solid #e9e9e9;
-    border-left: 1px solid #e9e9e9;
-    border-right: 1px solid #e9e9e9;
+    border-top: 1px solid #bebcbc;
+    border-left: 1px solid #bebcbc;
+    border-right: 1px solid #bebcbc;
     border-radius: .2rem .2rem 0 0;
 }
 
@@ -141,4 +145,4 @@ h2{
 .for-tabs-one .tab-pane-one.active1{
     display: block;
 }
-/* Js tabs and theme end here */
+
